@@ -1,5 +1,5 @@
 let token = '';
-const apiUrl = 'http:///backend-service:5000/api';
+const apiUrl = 'http:///localhost:5000/api';
 
 async function register() {
     const username = document.getElementById('username').value;
